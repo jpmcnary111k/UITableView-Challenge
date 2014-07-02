@@ -1,5 +1,5 @@
 //
-//  JPViewController.h
+//  JPTableViewController.h
 //  UITable View Problem
 //
 //  Created by Jameson McNary on 7/1/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface JPViewController : UIViewController
+@interface JPTableViewController : UITableViewController
 
 @end

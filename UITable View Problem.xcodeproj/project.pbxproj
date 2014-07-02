@@ -14,13 +14,13 @@
 		8F2568231962D6A50038E3A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F2568221962D6A50038E3A8 /* main.m */; };
 		8F2568271962D6A50038E3A8 /* JPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F2568261962D6A50038E3A8 /* JPAppDelegate.m */; };
 		8F25682A1962D6A50038E3A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F2568281962D6A50038E3A8 /* Main.storyboard */; };
-		8F25682D1962D6A50038E3A8 /* JPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F25682C1962D6A50038E3A8 /* JPViewController.m */; };
 		8F25682F1962D6A50038E3A8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F25682E1962D6A50038E3A8 /* Images.xcassets */; };
 		8F2568361962D6A50038E3A8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F2568351962D6A50038E3A8 /* XCTest.framework */; };
 		8F2568371962D6A50038E3A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F2568161962D6A50038E3A8 /* Foundation.framework */; };
 		8F2568381962D6A50038E3A8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F25681A1962D6A50038E3A8 /* UIKit.framework */; };
 		8F2568401962D6A50038E3A8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8F25683E1962D6A50038E3A8 /* InfoPlist.strings */; };
 		8F2568421962D6A50038E3A8 /* UITable_View_ProblemTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F2568411962D6A50038E3A8 /* UITable_View_ProblemTests.m */; };
+		8F25684D1962D6C90038E3A8 /* JPTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F25684C1962D6C90038E3A8 /* JPTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		8F2568251962D6A50038E3A8 /* JPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JPAppDelegate.h; sourceTree = "<group>"; };
 		8F2568261962D6A50038E3A8 /* JPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JPAppDelegate.m; sourceTree = "<group>"; };
 		8F2568291962D6A50038E3A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8F25682B1962D6A50038E3A8 /* JPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JPViewController.h; sourceTree = "<group>"; };
-		8F25682C1962D6A50038E3A8 /* JPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JPViewController.m; sourceTree = "<group>"; };
 		8F25682E1962D6A50038E3A8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8F2568341962D6A50038E3A8 /* UITable View ProblemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITable View ProblemTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F2568351962D6A50038E3A8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		8F25683D1962D6A50038E3A8 /* UITable View ProblemTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITable View ProblemTests-Info.plist"; sourceTree = "<group>"; };
 		8F25683F1962D6A50038E3A8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8F2568411962D6A50038E3A8 /* UITable_View_ProblemTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITable_View_ProblemTests.m; sourceTree = "<group>"; };
+		8F25684B1962D6C90038E3A8 /* JPTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPTableViewController.h; sourceTree = "<group>"; };
+		8F25684C1962D6C90038E3A8 /* JPTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +115,8 @@
 				8F2568251962D6A50038E3A8 /* JPAppDelegate.h */,
 				8F2568261962D6A50038E3A8 /* JPAppDelegate.m */,
 				8F2568281962D6A50038E3A8 /* Main.storyboard */,
-				8F25682B1962D6A50038E3A8 /* JPViewController.h */,
-				8F25682C1962D6A50038E3A8 /* JPViewController.m */,
+				8F25684B1962D6C90038E3A8 /* JPTableViewController.h */,
+				8F25684C1962D6C90038E3A8 /* JPTableViewController.m */,
 				8F25682E1962D6A50038E3A8 /* Images.xcassets */,
 				8F25681D1962D6A50038E3A8 /* Supporting Files */,
 			);
@@ -251,7 +251,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F2568271962D6A50038E3A8 /* JPAppDelegate.m in Sources */,
-				8F25682D1962D6A50038E3A8 /* JPViewController.m in Sources */,
+				8F25684D1962D6C90038E3A8 /* JPTableViewController.m in Sources */,
 				8F2568231962D6A50038E3A8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
