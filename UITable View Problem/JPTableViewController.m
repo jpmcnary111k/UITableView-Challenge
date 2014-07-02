@@ -53,7 +53,7 @@
 {
 #warning Incomplete method implementation.
     // Return the number of rows in the section.
-    if (section ==0){
+    if (section == 0){
         return 2;
     }
     else if (section ==1){
@@ -74,12 +74,15 @@
     cell.textLabel.text = @"cell";
     
     if (indexPath.section == 0){
+        cell.textLabel.text = @"I am in section 0";
         cell.backgroundColor = [UIColor redColor];
     }
     else if (indexPath.section == 1){
+        cell.textLabel.text = @"Another Section";
         cell.backgroundColor = [UIColor blueColor];
     }
     else{
+        cell.textLabel.text = [NSString stringWithFormat:@"cell %i", indexPath.row];
         cell.backgroundColor = [UIColor yellowColor];
     }
     return cell;
